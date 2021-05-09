@@ -1,12 +1,10 @@
 .jumbotron{
     background-color:black;
-    background-image:url('img/the_basement.png');
+    background-image: url('/img/the_basement.png');
     background-position: center;
-    background-size: 100% 100%;
+    background-size: 67% 80%;
     background-repeat: no-repeat;
-    min-height: 00px;
-
-}
+  }
 
 .catch_phrase{
     color:white;
