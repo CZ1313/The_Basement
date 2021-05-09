@@ -1,0 +1,32 @@
+.jumbotron{
+    background-color:black;
+    background-image:url('img/the_basement.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 00px;
+
+}
+
+.catch_phrase{
+    color:white;
+    font-size:35px;
+    margin-top: 20%;
+    margin-left: 70%;
+}
+
+
+.btn { 
+    color: #FFFFFF; 
+    background-color: #000000; 
+    border: 2px solid #77DFF2; 
+    padding: 5px 20px;
+  } 
+   
+  .btn:hover, 
+  .btn:active { 
+    color: white; 
+    background-color: #0EF068; 
+    border-color: #77DFF2 ; 
+  } 
+  
