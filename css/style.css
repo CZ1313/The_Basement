@@ -8,7 +8,7 @@
     background-position: center;
     background-size: 67% 80%;
     background-repeat: no-repeat;
-  }
+}
 
 .catch_phrase{
     color:rgb(51, 243, 12);
@@ -24,14 +24,14 @@
     background-color: #000000; 
     border: 2px solid #77DFF2; 
     padding: 5px 20px;
-  } 
+} 
    
   .btn:hover, 
   .btn:active { 
     color: white; 
     background-color: #0EF068; 
     border-color: #77DFF2 ; 
-  } 
+} 
   
   .about_div{
     width:50%;
@@ -39,30 +39,57 @@
     border:rgba(50, 73, 150, .3) solid 10px ;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(80, 161, 173) 1%, rgba(117,168,194,1) 56%, rgba(2,0,36,1) 100%);
-  }
+}
 
   .about_us{
     text-align: center;
     background-color: black;
     padding:7px;
     width:100%;
-  }
+}
   .about_content{
     text-indent: 35px;
     color:rgb(255, 255, 255);
     font-size: 20px;
-  }
+}
   .passion{
     color: #0EF068;
     font-size: 25px;
-  }
+}
 
   .about_p2, .about_p3{
     line-height: 3rem;
-  }
+}
 
   .basement{
     color: white;
     font-size: 30px;
     font-family: 'IM Fell English', serif;
-  }
+}
+
+  .footer {
+    padding: 80px 0;
+    background:black;
+    border: 2px solid #77DFF2; 
+}
+
+  .Subscribe{
+      color:white;
+      text-align: center;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;      
+}
+      
+  .form-control {
+    background: white;
+       
+}
+
+  .form-control:focus {
+    border-color: #0EF068;
+   }
+
+    .subscribe .btn {
+    min-height: 50px; 
+}
