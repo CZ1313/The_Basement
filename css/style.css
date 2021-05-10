@@ -92,4 +92,16 @@
 
     .subscribe .btn {
     min-height: 50px; 
+  }
+
+  .socialMediaLinks a{
+    
+    font-size:50px;
+    padding: 30px;
+    color:#0EF068;
+}
+
+.copyright{
+  color:#0EF068;
+  font-size:18px;
 }
