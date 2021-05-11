@@ -73,14 +73,14 @@ background-color:black;
     font-family: 'IM Fell English', serif;
 }
 
-  .footer {
+  .my_footer {
     padding: 80px 0;
     background:black;
     border: 2px solid #77DFF2; 
 }
 
   .Subscribe{
-      color:white;
+      color:white; 
       text-align: center;
       margin: 0 auto;
       position: relative;
