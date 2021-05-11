@@ -2,20 +2,53 @@
   background-color:grey ;
 }
 
+
+    
 .jumbotron{
     background-color:black;
+    position:relative;
     background-image: url('/img/the_basement.png');
-    background-position: center;
-    background-size: 67% 80%;
+  min-height: 400px;
+    background-position:center;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .catch_phrase{
+    position:relative;
     color:rgb(51, 243, 12);
     font-size:30px;
     font-family:'Homemade Apple', cursive;
     margin-top: 20%;
     margin-left: 70%;
+}
+
+@media screen and (min-width: 400px){
+  .catch_phrase{
+
+    font-size: 13px;
+    margin-top: 70%;
+    margin-left:110px ;
+    padding:px;
+  }
+}
+
+@media screen and (min-width:100px){
+  .navbar-btn{
+    
+    margin-top: 20%;
+    max-width: 120px;
+    max-height: 70px;
+  }
+}
+
+@media screen and (min-width:100px){
+  .nav-link{
+    
+    margin-top: 1%;
+    max-width: 120px;
+    max-height: 70px;
+  }
 }
 
 
@@ -34,7 +67,7 @@
 } 
   
   .about_div{
-    width:50%;
+    width:100%;
     padding:40px;
     border:rgba(50, 73, 150, .3) solid 10px ;
     background: rgb(255,255,255);
@@ -43,7 +76,7 @@
 
 .links a:link{
 color:white;
-background-color:black;
+
 
 }
 
@@ -63,7 +96,7 @@ background-color:black;
     font-size: 25px;
 }
 
-  .about_p2, .about_p3{
+  .about_p1, .about_p2, .about_p3{
     line-height: 3rem;
 }
 
