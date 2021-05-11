@@ -41,6 +41,12 @@
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(80, 161, 173) 1%, rgba(117,168,194,1) 56%, rgba(2,0,36,1) 100%);
 }
 
+.links a:link{
+color:white;
+background-color:black;
+
+}
+
   .about_us{
     text-align: center;
     background-color: black;
