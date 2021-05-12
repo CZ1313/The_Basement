@@ -14,28 +14,11 @@ body{
     background-repeat: no-repeat;
 }
 
-.catch_phrase{
-    position:relative;
-    color:rgb(51, 243, 12);
-    font-size: 30px;
-    font-family:'Homemade Apple', cursive;
-    margin-top: 20%;
-    
-}
 
 .navbar{
   margin-top: 20%;
 }
 
-@media screen and (min-width: 400px){
-  .catch_phrase{
-
-    font-size: 13px;
-    margin-top: 70%;
-    margin-left:110px ;
-    padding:30px;
-  }
-}
 
 @media screen and (min-width:100px){
   .navbar-btn{
@@ -70,7 +53,7 @@ body{
     border-color: #77DFF2 ; 
 } 
   
-  .about_div{
+  .about_div, .sneek_peek{
     width:100%;
     padding:40px;
     border:rgba(50, 73, 150, .3) solid 10px ;
@@ -129,15 +112,42 @@ box-shadow:0px 8px 10px #0EF068 ;
   height:auto;
 }
 
+.company_img{
+  background-image: url("/img/company_img.png");
+  background-position: cover;
+  background-size:contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  height:600px;
+  position: relative;
+  
+  
+}
+
+.catch_phrase{
+  color:rgb(51, 243, 12);
+  font-size: 50px;
+  font-family:'Homemade Apple', cursive;
+}
+
+@media screen and (min-width: 400px){
+  .catch_phrase{
+    font-size: 30px;
+    margin-top: 90%;
+    padding:15px;
+    
+  }
+}
 
 
   .my_footer {
-    padding: 80px 0;
+    width:auto;
     background:black;
-    border: 2px solid #77DFF2; 
+    border: 3px solid #77DFF2; 
 }
 
   .Subscribe{
+      padding:25px;
       color:white; 
       text-align: center;
       margin: 0 auto;
