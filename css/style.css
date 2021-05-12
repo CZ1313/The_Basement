@@ -15,27 +15,9 @@ body{
 }
 
 
-.navbar{
-  margin-top: 20%;
-}
-
-
-@media screen and (min-width:100px){
-  .navbar-btn{
-    
-    margin-top: 20%;
-    max-width: 120px;
-    max-height: 70px;
-  }
-}
-
-@media screen and (min-width:100px){
-  .nav-link{
-    
-    margin-top: 1%;
-    max-width: 120px;
-    max-height: 70px;
-  }
+/*NavBar Style*/
+.btn-toolbar{
+    margin-top: 33%;
 }
 
 
@@ -45,15 +27,23 @@ body{
     border: 2px solid #77DFF2; 
     padding: 5px 20px;
 } 
-   
-  .btn:hover, 
-  .btn:active { 
+ 
+.btn:hover, 
+.btn:active { 
     color: white; 
     background-color: #0EF068; 
     border-color: #77DFF2 ; 
 } 
-  
-  .about_div, .sneek_peek{
+
+
+.nav-link{
+    color:white;
+    max-width: 120px;
+    max-height: 70px;
+}
+
+/*About Section Style*/
+.about_div, .sneek_peek{
     width:100%;
     padding:40px;
     border:rgba(50, 73, 150, .3) solid 10px ;
@@ -61,120 +51,117 @@ body{
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(80, 161, 173) 1%, rgba(117,168,194,1) 56%, rgba(2,0,36,1) 100%);
 }
 
-.links a:link{
-color:white;
-
-
-}
-
-  .pill_heading{
+.pill_heading{
     text-align: center;
     background-color: black;
     padding:7px;
     width:100%;
 }
-  .about_content{
+
+.about_content{
     text-indent: 35px;
     color:rgb(255, 255, 255);
     font-size: 20px;
 }
-  .passion{
+
+    /* For the Word "passion" in the content*/
+.passion{
     color: #0EF068;
     font-size: 25px;
 }
 
-  .about_p1, .about_p2, .about_p3{
+    /*Spacing within About_Section content*/
+.about_p1, .about_p2, .about_p3{
     line-height: 3rem;
 }
 
-  .basement{
+    /*For the Word "basment" in the content*/
+.basement{
     color: white;
     font-size: 30px;
     font-family: 'IM Fell English', serif;
 }
 
+/*Sneek Peek Section/Thumbnails*/
 .gallery{
-  padding:50px;
+    padding:50px;
 }
 
 .thumbnail{
- border:#0EF068 2px solid;
- padding:2px;
+    border:#0EF068 2px solid;
+    padding:2px;
 }
 
 .thumbnail:hover{
-box-shadow:0px 8px 10px #0EF068 ;
+    box-shadow:0px 8px 10px #0EF068 ;
 }
 
-
+    /*for thumbnails to fit mobile*/
 .responsive {
-  width:100%;
-  height:auto;
+    width:100%;
+    height:auto;
 }
 
+/*For company image section and catchphrase*/
 .company_img{
-  background-image: url("/img/company_img.png");
-  background-position: cover;
-  background-size:contain;
-  background-repeat: no-repeat;
-  text-align: center;
-  height:600px;
-  position: relative;
-  
-  
+    background-image: url("/img/company_img.png");
+    background-position: cover;
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    height:600px;
+    position: relative;
 }
 
 .catch_phrase{
-  color:rgb(51, 243, 12);
-  font-size: 50px;
-  font-family:'Homemade Apple', cursive;
+    color:rgb(51, 243, 12);
+    font-size: 50px;
+    font-family:'Homemade Apple', cursive;
 }
 
 @media screen and (min-width: 400px){
-  .catch_phrase{
+.catch_phrase{
     font-size: 30px;
     margin-top: 90%;
-    padding:15px;
-    
+    padding:15px;}
   }
-}
 
-
-  .my_footer {
+/*Footer Style*/
+.my_footer {
     width:auto;
     background:black;
     border: 3px solid #77DFF2; 
 }
-
-  .Subscribe{
-      padding:25px;
-      color:white; 
-      text-align: center;
-      margin: 0 auto;
-      position: relative;
-      z-index: 1;      
+/*Subscribe Form*/
+.Subscribe{
+    padding:25px;
+    color:white; 
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;      
 }
       
-  .form-control {
+.form-control {
     background: white;
-       
-}
-
-  .form-control:focus {
-    border-color: #0EF068;
-   }
-
-    .subscribe .btn {
-    min-height: 50px; 
   }
 
-  .socialMediaLinks a{
-    
+.form-control:focus {
+    border-color: #0EF068;
+}
+
+.subscribe .btn {
+    min-height: 50px; 
+}
+
+/*Social Media Links*/
+.socialMediaLinks a{
     font-size:50px;
     padding: 30px;
     color:#0EF068;
-}
+  }
 
+/*copyright*/
 .copyright{
   color:#0EF068;
   font-size:18px;
