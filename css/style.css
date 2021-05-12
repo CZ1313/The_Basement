@@ -15,10 +15,7 @@ body{
 }
 
 
-/*NavBar Style*/
-.btn-toolbar{
-    margin-top:35%;
-}
+
 
 
 .btn { 
@@ -38,8 +35,7 @@ body{
 
 .nav-link{
     color:white;
-    max-width: 120px;
-    max-height: 70px;
+   
 }
 
 /*About Section Style*/
