@@ -129,6 +129,12 @@ body{
     background:black;
     border: 3px solid #77DFF2; 
 }
+
+.form-control{
+  font-size: 18px;
+  
+}
+
 /*Subscribe Form*/
 .Subscribe{
     padding:25px;
@@ -141,11 +147,13 @@ body{
       
 .form-control {
     background: white;
+    
   }
 
 .form-control:focus {
     border-color: #0EF068;
 }
+
 
 .subscribe .btn {
     min-height: 50px; 
